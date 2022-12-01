@@ -3,9 +3,11 @@
 import 'package:flutter/material.dart';
 
 import 'campoTexto.dart';
+import 'entradaCheckBox.dart';
 
 void main() {
   runApp(MaterialApp(
-    home: CampoTexto(),
+    // home: CampoTexto(),
+    home: EntradaCheckbox(),
   ));
 }
